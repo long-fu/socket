@@ -13,7 +13,7 @@ int main() {
     // 定义服务器地址结构
     sockaddr_in serverAddr;
     serverAddr.sin_family = AF_INET;
-    serverAddr.sin_port = htons(12348); // 服务器端口
+    serverAddr.sin_port = htons(12339); // 服务器端口
     serverAddr.sin_addr.s_addr = inet_addr("127.0.0.1"); // 服务器IP地址
 
     // 建立连接

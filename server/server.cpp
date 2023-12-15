@@ -62,7 +62,7 @@ int main() {
     // 定义服务器地址结构
     sockaddr_in serverAddr;
     serverAddr.sin_family = AF_INET;
-    serverAddr.sin_port = htons(12348); // 选择一个端口
+    serverAddr.sin_port = htons(12339); // 选择一个端口
     serverAddr.sin_addr.s_addr = inet_addr("0.0.0.0"); // 服务器IP地址
 
     // 绑定套接字
